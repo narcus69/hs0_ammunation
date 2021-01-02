@@ -5,8 +5,8 @@
 ---
 
 print("")
-print("^1Crée par : Haci Petlay^0")
-print("^4Pour : LegendRP.^0")
+print("^1Crée par : Huso^0")
+print("^4Discord : https://discord.gg/9yszV9tDJw^0")
 print("")
 
 
