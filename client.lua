@@ -139,7 +139,7 @@ Citizen.CreateThread(function()
                 local dist = Vdist(plyCoords.x, plyCoords.y, plyCoords.z, position[k].x, position[k].y, position[k].z)
     
                 if dist <= 1.0 then
-                    ESX.ShowHelpNotification("Appuyez sur [~b~E~w~] pour accéder au shop")
+                    ESX.ShowHelpNotification("Appuyez sur [~b~E~w~] pour accéder à l'armurerie")
                     if IsControlJustPressed(1,51) then
                         RageUI.Visible(RMenu:Get('hs0_ammunation', 'main'), not RageUI.Visible(RMenu:Get('hs0_ammunation', 'main')))
                     end   
